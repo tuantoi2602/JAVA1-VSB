@@ -1,0 +1,17 @@
+Lab03:
+Arrays, foreach
+Use this git repository for laboratories and project that is in a sub folder LabsSolutions as a starting project please.
+
+Create a class Dragon that will implement method draw, simulate in the same way as BulletAnimated do. The difference will be that object dragon will have constant speed and when it will goes out of the canvas then it will appear on the opposite side - use a modulo operator. As image use value of a variable Constants.DRAGON_IMAGE.
+
+Dragon
+
+Create an array of dragons in the class World. Initialize it in a constructor with 5 dragons on different positions.
+
+Modify methods draw and simulate of the class World that a method draw and a method simulate will be called on every dragon.
+
+Create a method getBoundingBox in classes BulletAnimated and Dragon - it will return boundary box - type javafx.geometry.Rectangle2D.
+
+Modify the method simulate in the class World - there will be inspection whether any dragon is hit by bullet. Use a method intersects  in the class Rectangle2D and apply it on boundary boxes.
+
+Change speed of a hit dragon to an opposite direction.

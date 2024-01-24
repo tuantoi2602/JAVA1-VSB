@@ -1,0 +1,28 @@
+Lab09:
+
+Collections, I/O streams
+1. Create a Score class
+which will have the instance variables name (String) and score (int).
+
+2. Add to the cannon game:
+On the left a box (TextField) for the player's name and the buttons "Game Over", "High Scores", "Save Scores", "Load Scores".
+Then add a ListView to the right to display a list of players and their scores.
+
+
+
+Create and initialize (for example, create an instance of the ArrayList class) the instance variable private List <Score> highScore;
+Then display this collection using the ListView class. (eg using the code scoreList.setItems (FXCollections.observableList (highScore));)
+
+3. After pressing the GameOver button
+generate a random number (or use the actual score of the game player) and use it along with the text from the player name field to create an instance of the Score class.
+Insert the generated score into the collection and sort so that the highest score is displayed at the top.
+Call insertion and sorting on the collection, which you get using scoreList.getItems (), so that the display is updated after each collection change.
+For proper sorting, you must create your own comparator (the Comparator / lambda recess class) that sorts objects by the value in the instance score variable.
+
+4. After pressing the High Score button
+the names of players who are there more than once are removed from the collection, and only the one with the highest score is left.
+Implement the function using a set collection (Set), for example (HashSet). For everything to work for the Score class, you must override the hashCode and equals methods so that they are based only on the value of the instance variable name.
+Then you can insert values from the highScore collection into the set, where only the first objects that are equal are automatically left (in our case, the ones with the highest score, if the collection is correctly sorted). You can then move the values back to the highScore collection, better to the scoreList.getItems () collection (to reflect the changes in the displayed list).
+
+5. After pressing the Save / Load Scores buttons
+save / load the values of the displayed scores to / from a text file in CSV format. Each line will contain a name pair, a semicolon-separated value (<NAME>; <VALUE>).

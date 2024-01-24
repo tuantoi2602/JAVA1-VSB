@@ -1,0 +1,47 @@
+TEST2:
+
+Notes
+------------
+
+For the solution create a project that will contain your login. When submitting create a zip file with the same name.
+
+For each task, create a separate class named Test<task number>. In this class, there will be a doIt (non-static) method that demonstrates the elaborated task. Pass the necessary variables as appropriate parameters of the method to or directly in the constructor. Demonstration of the solution for task # 19, which should specify: "Print the specified string on the console."
+
+public class Test19{
+
+   public void doIt(String input) {
+
+     System.out.println(input);
+
+   }
+
+}
+
+Create a class RunTest02Of<Login> with the main method to call the solution for each task.
+
+
+
+
+
+Tasks
+------------
+
+1. Open the text file specified by the String (as BufferedReader) and read all lines sequentially and print their lengths on the output console. Insert each retrieved line into a list (List<String>), which you return as a return value.
+2. Sort the List<String> by the frequency of letters 'I' or 'i'. You can use the output of the previous job.
+
+3. Divide the entered text (List<String>) into words and save it in the list (List<String>) that you return. Ensure remove duplicates - in detecting duplicates use the procedure that is better than complexity O(n). You can use Task 1 again as input data.
+
+
+4. In the collection of words (Collection<String>), find out the frequency of each word and print it on the console. Ignore uppercase and lowercase letters.
+
+
+5. In the present text, refer to all the strings that describe the regular expression "ab * c + d [,,]" and save them to the collection chain (Collection <String>).
+6. Open the file by the path (String) so that it can read binary integers of the long type. Fetch 5 numbers and return the sum.
+
+7. Create a generic a type NumberVector, (it will have x, y, z folders), which will be limited to the use of Number types. The values of the individual components will be passed in the constructor and they will be immutable. There will be a length method that returns the calculated length (square root (x * x + y * y + z * z)) as a double value (the Number class has a doubleValue method).
+
+8. Ensure that the previous class NumberVector allows its instances to be used correctly as a key for HashMap, without distinction between different instances that represent the same vectors. You must override methods equals and hashCode.
+
+9. Generate a list of 1000 random NumberVector using the stream and then filter so that it does not contain vectors with same length.
+
+10. Extend previous task that vectors are sorted in descending order.

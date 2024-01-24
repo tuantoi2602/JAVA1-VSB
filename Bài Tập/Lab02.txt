@@ -1,0 +1,6 @@
+Task 2:
+Create basic classes for a game pong - Bet, Ball, Court, Mesh, Label, Score.
+
+For each  class, implement a method draw.
+
+For classes Bet and Ball, implement a method simulate.

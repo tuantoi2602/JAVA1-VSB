@@ -1,0 +1,18 @@
+Semestral project
+Choose one of the listed topics, which is free in your exercise. The themes are inspired by games on 8-bit computers from the 1980s. After selecting a topic, report it to your instructor and when you assign it to you, you can start working on it. You can also suggest another topic for project - e.g. implementation of some simple game.
+
+Principles for implementation (mandatory):
+follow the Java code conventions (revised version - https: // www .scribd.com/doc/15884743 / Java-Coding-Style-by-Achut-Reddy ), you can use workspace settings ( workspace -template.zip ), which has automatic formatting set;
+static methods and variables will NOT be used except for auxiliary functions and constants - consult their usage with a tutor;
+the project will include an usage of interfaces, collections and work with I/O "streams".
+objects will be handled through the most general type / interface, not through a particular class;
+elaborate the project in extent and quality with regard to your capabilities - important is code quality or functionality not 100% perfection and conformity with the original;
+Terms of submission
+The project will be submitted as a single zip file named java1_2020_ep_<author_login>.zip (e.g. java1_2020_ep_koz01.zip), which will contain a directory named java1_2020_ep_<author_login> (e.g. java1_2020_ep_koz01). This directory will contain the eclipse project, which will will have a name after import java1_2020_ep_<author_login>(e.g. java1_2020_ep_koz01). Under this name, the project must appear when is imported into eclipse.
+
+Failure to comply with the prescribed submission form will likely result in projects being excluded from processing as the processing process is partially automated.
+
+The libraries used in the development will be part of the submitted project and it will not require any additional settings. A maven using for dependecy management is welcome. Failure to comply with this rule will be penalized by a certain number of points according to the time it takes to operate.
+
+The deadline is specified in the LMS for this assignment (only applies to students attending my class) and after this deadline no project will be accepted. In exceptional cases, the project will be evaluated by full score in case of deadline submission - if it is extremely successful or the author has a demonstrable reason for late submission (this reason must be consulted in advance).
+

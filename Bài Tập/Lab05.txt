@@ -1,0 +1,10 @@
+Lab05:
+GUI
+Create game screen - use BorderPane with Canvas in center
+Create button for shooting.
+Connect the button.
+Create a Label to display the score and the number of shots - there will be 10 shoots.
+Create slider for cannon power.
+Create an initial screen, game screen and screen for an end of game.
+
+Create a user interface for the game Pong with the ability to enter the names of players. And buttons to start the game and to control the bats.

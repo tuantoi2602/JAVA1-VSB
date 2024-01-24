@@ -1,0 +1,22 @@
+TEST 1:
+
+1. Create a new class Person containing:
+age
+firstName
+lastName
+Variables will be final and private and class will contain constructor for their initialization.
+
+The class fill contain method getAge and getName. getName will return joined first and last name.
+
+2. Create an interface “HavingLength” that will contain method length():int. The class Person will implement it and its implementation of the method length will return length of string that is created as concatenation of a name and age (converted into string).
+
+3. Create a class LengthEvaluator with one method “findWithMaxLength” that will from an array of type “HavingLength” return object that gets maximum value by method “length()”.
+
+4. Create two arrays of strings containing these last names:
+
+"Delafaille","Harris" ,"Oberfield" ,"Mura" ,"Locatelli" ,"Bastard" ,"Lucev" ,"Cossignani" ,"Warnement" ,"Krikorian" ,"Aldritt" ,"Kool" ,"Camara" ,"Bardell" ,"Vicari" ,"Broz" ,"Haslett" ,"Hettlinger" ,"Dempster" ,"Richmonde" ,"Difabio" ,"Yao" ,"Ortega y gasset" ,"Hykin"
+    and these names:
+
+"Liam ", "Noah ", "William ", "James ", "Oliver ", "Benjamin ", "Elijah ", "Lucas ", "Mason ", "Logan ", "Alexander ", "Ethan ", "Jacob ", "Michael ", "Daniel ", "Henry ", "Jackson ", "Sebastian", "Aiden ", "Matthew ", "Samuel ", "David ", "Joseph ", "Carter ", "Owen ", "Wyatt ", "John ".
+
+5. Create 100 Persons with random name (choose item randomly from array of last names and first names). Age will be random within interval 0-110 and store them in an array of type HavingLength. Use LengthEvaluator on the array.

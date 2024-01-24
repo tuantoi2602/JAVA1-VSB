@@ -1,0 +1,26 @@
+Lab11:
+
+Fill in the missing functionality in the pre-prepared project using Java SE8 Streams.
+Tournament generation
+    Generate a list of 10 random players using the stream and then filter so that it does not contain players with the same name
+    Use the stream to generate a list of 50 matches between random players (from the list of players) with a random result. Make sure the player does not play with himself.
+
+Tournament listing
+    Use the stream to add a listing of all players to the builder. Individual players are separated by a "\ n" character
+    Use the stream to add a listing of all entries to the builder. Individual matches are separated by a "\ n" character
+
+Single player statistics
+    Show the number of matches played by a given player (using Streams)
+    Show the number of goals scored by a given player (help Streams)
+
+Mutual statistics of two players
+    List the matches played between the given players (using the stream)
+    Show the number of matches played between the given players (using the stream)
+    Show match with the largest total number (sum of both players) scored goals between relevant players (help Streams)
+
+Serialize the tournament to a file
+    Save the tournament to a file using object serialization.
+    Load a serialized tournament from a file
+
+
+In the PONG game, add the ability to save and load (to / from a file) the current state of the game (position and speed of objects - bats and ball, current score) using serialization.

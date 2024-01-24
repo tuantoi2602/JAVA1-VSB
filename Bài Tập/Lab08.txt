@@ -1,0 +1,9 @@
+LAB08:
+
+Collections, I/O streams
+In the class World, use a Collection instead of using array for entities.
+Limit number of bullets to 10, count number of hit dragons. After shot 10 bullets end a game.
+Define a class HighScore with attributes name and value. Create 10 scores in a source code on the beginning and add your score at the end. Store them in the OrderedSet (it is an interface and implementation is a class TreeSet) and order them by value of score descending. Print all high scores at the end.
+Store and load high scores from text CSV file. Format will be that very row will contain <NAME>;<VALUE>.
+
+Add to Pong a score count and record it to the list of highest scores. Save and load the score to a file.
